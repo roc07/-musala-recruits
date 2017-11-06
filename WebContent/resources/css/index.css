@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-family: serif;
+}
+.col-sm-10 {
+    border: 2px solid rgb(73, 129, 192);
+}
+.col-sm-8 {
+    border: 1px solid rgba(73, 131, 192, 0.699);
+}
+.col-sm-4 {
+    border: 1px solid rgba(73, 131, 192, 0.699);
+}
+body {
+    border: 4px solid rgba(73, 131, 192, 0.699);
+    border-style: double;
+    background-image: url('../images/mountain.jpg');
+}
+/* .main-table { */
+/* 	background-color: #f4f8ff; */
+/* } */
+.musala-banner {
+	border: 4px solid rgba(73, 131, 192, 0.699);
+	border-style: double;
+}
+input {
+    width: 50%;
+}
+.buttoLink {
+	border: 2px solid rgba(73, 131, 192, 0.699);
+	padding: 2px;
+	border-radius: 2px;
+	background-color: #ffffe6;
+	padding: 3px;
+}
+.hoverBorderRed {
+	border: 2px solid #cc0000;
+}
+.chooser {
+	width: 20%;
+}
+form {
+	border: 1px solid red;
+}
+input[type=radio] {
+  	display: inline;
+  	width: 9%;
+}
