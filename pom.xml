@@ -8,11 +8,16 @@
     <sourceDirectory>src</sourceDirectory>
     
 <!--     <dependencies> -->
-<!-- 	    <dependency> -->
-<!-- 		    <groupId>org.webjars.bower</groupId> -->
-<!-- 		    <artifactId>bootstrap</artifactId> -->
-<!-- 		    <version>4.0.0-beta</version> -->
-<!-- 		</dependency>     -->
+<!-- 			<dependency> -->
+<!-- 				<groupId>org.springframework.security</groupId> -->
+<!-- 				<artifactId>spring-security-web</artifactId> -->
+<!-- 				<version>5.0.0.RC1</version> -->
+<!-- 			</dependency> -->
+<!-- 			<dependency> -->
+<!-- 				<groupId>org.springframework.security</groupId> -->
+<!-- 				<artifactId>spring-security-config</artifactId> -->
+<!-- 				<version>5.0.0.RC1</version> -->
+<!-- 			</dependency> -->
 <!--     </dependencies> -->
 
     <plugins>
@@ -26,11 +31,13 @@
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.0.0</version>
+        <version>3.2.0</version>
         <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
+			<failOnMissingWebXml>false</failOnMissingWebXml>
+          	<warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
+      
     </plugins>
   </build>
 </project>
